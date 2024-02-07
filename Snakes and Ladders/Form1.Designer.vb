@@ -88,6 +88,7 @@ Partial Class Form1
         Me.lblRoll = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtRolled = New System.Windows.Forms.TextBox()
+        Me.lblWinner = New System.Windows.Forms.Label()
         CType(Me.v, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerOne1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerOne2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -801,11 +802,24 @@ Partial Class Form1
         Me.txtRolled.TabIndex = 64
         Me.txtRolled.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'lblWinner
+        '
+        Me.lblWinner.BackColor = System.Drawing.Color.ForestGreen
+        Me.lblWinner.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWinner.ForeColor = System.Drawing.Color.Yellow
+        Me.lblWinner.Location = New System.Drawing.Point(72, 54)
+        Me.lblWinner.Name = "lblWinner"
+        Me.lblWinner.Size = New System.Drawing.Size(646, 537)
+        Me.lblWinner.TabIndex = 65
+        Me.lblWinner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblWinner.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1257, 624)
+        Me.Controls.Add(Me.lblWinner)
         Me.Controls.Add(Me.txtRolled)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblRoll)
@@ -1004,4 +1018,5 @@ Partial Class Form1
     Friend WithEvents lblRoll As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents txtRolled As TextBox
+    Friend WithEvents lblWinner As Label
 End Class

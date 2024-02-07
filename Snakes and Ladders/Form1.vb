@@ -50,7 +50,86 @@
 
         End If
 
-        If 
+        If intScore = 17 Then
+            intScore = 4
+            playerOne4.Visible = True
+            playerOne17.Visible = False
+        ElseIf intScore = 19 Then
+            intScore = 7
+            playerOne7.Visible = True
+            playerOne19.Visible = False
+        ElseIf intScore = 21 Then
+            intScore = 9
+            playerOne9.Visible = True
+            playerOne21.Visible = False
+        ElseIf intScore = 27 Then
+            intScore = 1
+            playerOne1.Visible = True
+            playerOne27.Visible = False
+        ElseIf intScore = 5 Then
+            intScore = 8
+            playerOne8.Visible = True
+            playerOne5.Visible = False
+        ElseIf intScore = 3 Then
+            intScore = 22
+            playerOne22.Visible = True
+            playerOne3.Visible = False
+        ElseIf intScore = 11 Then
+            intScore = 26
+            playerOne26.Visible = True
+            playerOne11.Visible = False
+        ElseIf intScore = 20 Then
+            intScore = 29
+            playerOne29.Visible = True
+            playerOne20.Visible = False
+        ElseIf intScore = 30 Then
+            lblWinner.Text = "Player 1 Is the Winner!"
+            lblWinner.Visible = True
+        End If
+
+
+
+
+
+
+
+
+        If intScore2 = 17 Then
+            intScore2 = 4
+            playerTwo4.Visible = True
+            playerTwo17.Visible = False
+        ElseIf intScore2 = 19 Then
+            intScore2 = 7
+            playerTwo7.Visible = True
+            playerTwo19.Visible = False
+        ElseIf intScore2 = 21 Then
+            intScore2 = 9
+            playerTwo9.Visible = True
+            playerTwo21.Visible = False
+        ElseIf intScore2 = 27 Then
+            intScore2 = 1
+            playerTwo1.Visible = True
+            playerTwo27.Visible = False
+        ElseIf intScore2 = 5 Then
+            intScore2 = 8
+            playerTwo8.Visible = True
+            playerTwo5.Visible = False
+        ElseIf intScore2 = 3 Then
+            intScore2 = 22
+            playerTwo22.Visible = True
+            playerTwo3.Visible = False
+        ElseIf intScore2 = 11 Then
+            intScore2 = 26
+            playerTwo26.Visible = True
+            playerTwo11.Visible = False
+        ElseIf intScore2 = 20 Then
+            intScore2 = 29
+            playerTwo29.Visible = True
+            playerTwo20.Visible = False
+        ElseIf intScore2 = 30 Then
+            lblWinner.Text = "Player 2 Is the Winner!"
+            lblWinner.Visible = True
+        End If
 
 
 
